@@ -1,0 +1,36 @@
+	.form-horizontal ul {
+	    width:750px;
+	    list-style-type:none;
+	    list-style-position:outside;
+	    margin:0px;
+	    padding:0px;
+	}
+	.form-horizontal div{
+	    padding:12px; 
+	    position:relative;
+	}
+	.spinner {
+		background-color: white;
+		border: 1px solid black;
+		position: fixed;
+		margin: 1px;
+	    top: 40%;
+	    left: 40%;
+	    margin-left: -50px; /* half width of the spinner gif */
+	    margin-top: -50px; /* half height of the spinner gif */
+	    text-align:center;
+	    z-index:1234;
+	    overflow: visible;
+	    width: 400px; /* width of the spinner gif */
+	    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+	}
+	#overlay {
+	    background-color: rgba(0, 0, 0, 0.8);
+	    z-index: 999;
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    display: none;
+	}

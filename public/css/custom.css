@@ -1,0 +1,110 @@
+body {
+	
+}
+
+.login-page .login-bottom-links, .login-page .login-content {
+	padding: 0px;
+}
+
+.navegadores {
+	color: #FFF;
+	font-size: 8pt;
+	text-align: center;
+}
+
+.alert-success-password {
+	background-color: #009987;
+	border-color: #009987;
+	color: #FFF;
+	text-align: left;
+}
+
+.error-crud {
+	color: #F00;
+	font-weight: bold;
+}
+
+.error-login {
+    cursor: default;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+footer a {
+	color: #999;
+}
+/************************************************************************************************************/
+
+.table thead tr th {
+	background-color: #31271E;
+	border: 1px solid;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.dataTables_wrapper table thead tr th.sorting_asc::before, .dataTables_wrapper table thead tr th.sorting_desc::before, 
+.dataTables_wrapper table thead tr th.sorting_asc, .dataTables_wrapper table thead tr th.sorting_desc {
+	color: #FFFFFF;
+}
+
+table {
+	border-collapse: separate;
+}
+
+/******MODIFICACIÓN ESTILO SELECT2******/
+.select2-no-results {
+	display: none !important;
+}
+
+.page-body .select2-container .select2-choice {
+	border: 1px;
+	height: 29px;
+	line-height: 30px;
+}
+
+.page-body .select2-drop .select2-search input {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+/***************************************/
+.form-group.required .control-label:after {
+	content: "*";
+	color: red;
+}
+
+p.required {
+	color: #D00;
+	font-size: 11px;
+}
+
+.required-asterik {
+	color: #D00;
+}
+
+.error-border {
+	border: 1px solid #F00;
+}
+
+/********************************MODAL********************************/
+.modal-header {
+	background-color: #31271E;
+	color: #FFF;
+}
+
+.modal-title {
+	color: #FFF;
+}
+
+..modal .modal-header .close {
+	background-color: #31271E;
+}
+
+/********************************DATEPICKER********************************/
+.form-control[readonly] {
+	background-color: #FFF;
+	cursor: text;
+}
+.datepicker {
+	background-color: #FFF;
+	cursor: text;
+}
